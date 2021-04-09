@@ -1,0 +1,4 @@
+ 
+r1: Não. o método pode se invocado mesmmo sem implementação ou com funcionalidade não ideal a classe. fora que não utiliza boas práticas de projeto.
+
+r2: Sim. Bastaria apenas atribuir a classe a uma variável e caso haja necessitade de alterar a habilidade a variável seria reatribuida com a nova habilidade.

@@ -17,12 +17,12 @@ public class FlowContainerBordaSolida extends Container {
 
     @Override
     public void addComponent(Component component) {
-        this.elements.add(c);
+        this.elements.add(component);
     }
 
     @Override
     public void removeComponent(Component component) {
-        this.elements.remove(c);
+        this.elements.remove(component);
     }
 
     @Override

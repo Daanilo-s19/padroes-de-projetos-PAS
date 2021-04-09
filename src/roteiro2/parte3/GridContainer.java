@@ -27,7 +27,7 @@ public class GridContainer extends Container {
         if (this.lineCounter == this.lineMax && this.columnCounter == this.ColumnMax) {
             System.out.println("Não é possivel adicionar novos elementos");
         } else {
-            this.elements[this.lineCounter][this.columnCounter] = c;
+            this.elements[this.lineCounter][this.columnCounter] = component;
             this.columnCounter++;
             if (columnCounter == this.ColumnMax) {
                 this.lineCounter++;
@@ -42,7 +42,7 @@ public class GridContainer extends Container {
     public void removeComponent(Component component) {
         for (int i = 0; i < this.lineMax; i++) {
             for (int j = 0; j < this.ColumnMax; j++) {
-                if (this.elements[i][j] == c) {
+                if (this.elements[i][j] == component) {
                     this.elements[i][i] = null;
                 }
             }
