@@ -1,0 +1,9 @@
+ 
+- Quem representa a classe Adapter ?
+    Arma
+- Quem representa a classe Adaptee ?
+    ShotGun
+- Quem representa a classe Target ?
+    Fuzil/Pistola/Rifle
+- Quem representa a classe Client ?
+    Atirador
